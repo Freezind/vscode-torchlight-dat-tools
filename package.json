@@ -1,0 +1,25 @@
+{
+  "name": "torchlight-dat",
+  "displayName": "torchlight dat",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "torchlight",
+      "aliases": ["torchlight dat", "torchlight"],
+      "extensions": ["dat"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "torchlight",
+      "scopeName": "source.tldat",
+      "path": "./syntaxes/torchlight.tmLanguage.json"
+    }]
+  }
+}
