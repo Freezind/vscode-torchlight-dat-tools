@@ -21,5 +21,9 @@
       "scopeName": "source.tldat",
       "path": "./syntaxes/torchlight.tmLanguage.json"
     }]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Freezind/vscode-torchlight-dat-tools"
   }
 }
